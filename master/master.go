@@ -25,6 +25,8 @@ func(m *MasterWindow) Master(){
 		container.NewTabItem("进制转换", module.ModuleDTB()),
 	
 		container.NewTabItem("抽签工具", module.Draw(master_window)),
+
+		container.NewTabItem("天气查询", module.WeatherQuery(a)),
 	)
 
 	tabs.SetTabLocation(container.TabLocationTop)

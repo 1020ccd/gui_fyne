@@ -5,6 +5,7 @@ go 1.17
 require (
 	fyne.io/fyne/v2 v2.2.3
 	github.com/flopp/go-findfont v0.1.0
+	github.com/valyala/fastjson v1.6.3
 )
 
 require (
